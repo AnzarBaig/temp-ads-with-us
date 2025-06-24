@@ -1,0 +1,643 @@
+{
+    "doc": [
+        {
+            "id": 0,
+            "url": "tmt-bars",
+            "title": "Steel TMT Bars: Strength and Durability",
+            "description": "Discover the benefits of TMT bars for construction projects, including superior strength and durability.",
+            "keywords": ""
+        },
+        {
+            "id": 1,
+            "url": "structured-steel",
+            "title": "Structured Steel: Building with Precision",
+            "description": "Explore the advantages of using structured steel for precise and efficient construction in modern architecture.",
+            "keywords": ""
+        },
+        {
+            "id": 2,
+            "url": "ms-ss-gi",
+            "title": "MS/SS/GI: Choosing the Right Material",
+            "description": "Learn about MS, SS, and GI materials to make informed decisions for your construction and manufacturing projects.",
+            "keywords": ""
+        },
+        {
+            "id": 3,
+            "url": "long-products",
+            "title": "",
+            "description": "",
+            "keywords": ""
+        },
+        {
+            "id": 4,
+            "url": "raw-material-steel",
+            "title": "Raw Material Steel: Essential for Industry",
+            "description": "Understand the importance of raw material steel in various industrial applications and its impact on production efficiency.",
+            "keywords": ""
+        },
+        {
+            "id": 5,
+            "url": "crash-barriers",
+            "title": "Crash Barriers: Ensuring Road Safety",
+            "description": "Learn how crash barriers protect lives and improve road safety by preventing accidents and minimizing impacts.",
+            "keywords": ""
+        },
+        {
+            "id": 6,
+            "url": "traffic-control-devices",
+            "title": "Traffic Control Devices: Managing Flow",
+            "description": "Discover how traffic control devices help manage traffic flow, enhance safety, and reduce congestion on roads.",
+            "keywords": ""
+        },
+        {
+            "id": 7,
+            "url": "marking-and-signage",
+            "title": "Marking and Signage: Enhancing Visibility",
+            "description": "Explore how effective marking and signage improve safety, guide drivers, and enhance visibility on roads and highways.",
+            "keywords": ""
+        },
+        {
+            "id": 8,
+            "url": "lights-and-visibility",
+            "title": "Lights and Visibility: Improving Safety",
+            "description": "Discover how proper lighting enhances visibility and safety on roads, preventing accidents and improving nighttime travel.",
+            "keywords": ""
+        },
+        {
+            "id": 9,
+            "url": "security-equipment",
+            "title": "Security Equipment: Safeguarding Assets",
+            "description": "Learn about various security equipment options to protect assets, ensure safety, and enhance security in different environments.",
+            "keywords": ""
+        },
+        {
+            "id": 10,
+            "url": "aggregates",
+            "title": "Aggregates: Essential Construction Materials",
+            "description": "Understand the role of aggregates in construction, their types, and how they impact the quality and durability of building projects.",
+            "keywords": ""
+        },
+        {
+            "id": 11,
+            "url": "blocks-and-accessories",
+            "title": "Blocks and Accessories: Building Solutions",
+            "description": "Explore various types of blocks and accessories used in construction, and their benefits for creating durable and efficient structures.",
+            "keywords": ""
+        },
+        {
+            "id": 12,
+            "url": "adhesives",
+            "title": "Adhesives: Bonding with Strength",
+            "description": "Discover the different types of adhesives and their applications for strong and reliable bonding in various industries and projects.",
+            "keywords": ""
+        },
+        {
+            "id": 13,
+            "url": "sealant",
+            "title": "Sealant: Ensuring Leak-Proof Solutions",
+            "description": "Learn how sealants provide effective leak-proofing and protection in construction and maintenance applications.",
+            "keywords": ""
+        },
+        {
+            "id": 14,
+            "url": "pipes",
+            "title": "High-Quality Pipes for All Plumbing Needs ",
+            "description": "Discover a wide range of durable and reliable pipes for all your plumbing projects at HeadsUp B2B. Shop now for top-notch piping solutions that ensure efficiency and longevity.",
+            "keywords": ""
+        },
+        {
+            "id": 15,
+            "url": "water-tanks",
+            "title": "Durable Water Tanks for Reliable Storage",
+            "description": "Explore our selection of high-quality water tanks designed for reliable storage and long-lasting performance. Find the perfect solution for your water storage needs at HeadsUp B2B.",
+            "keywords": ""
+        },
+        {
+            "id": 16,
+            "url": "wires-and-cables",
+            "title": "Premium Wires and Cables for Electrical Projects",
+            "description": "Shop a wide range of premium wires and cables for all your electrical projects at HeadsUp B2B. Ensure safety and efficiency with our top-quality electrical solutions.",
+            "keywords": ""
+        },
+        {
+            "id": 17,
+            "url": "gi-box",
+            "title": "High-Quality GI Boxes for Secure Electrical Installations",
+            "description": "Browse our range of durable GI boxes for safe and secure electrical installations. Find the best galvanized iron boxes for your projects at HeadsUp B2B.",
+            "keywords": ""
+        },
+        {
+            "id": 18,
+            "url": "conduit-pipes",
+            "title": "Durable Conduit Pipes for Reliable Electrical Wiring",
+            "description": "Discover our selection of durable conduit pipes designed for reliable electrical wiring and protection. Shop now at HeadsUp B2B for high-quality conduit solutions that ensure safety and longevity.",
+            "keywords": ""
+        },
+        {
+            "id": 19,
+            "url": "lights",
+            "title": "Energy-Efficient Lights for Every Space",
+            "description": "Illuminate your spaces with our range of energy-efficient lights. Find top-quality lighting solutions for homes, offices, and industrial areas at HeadsUp B2B. Shop now for superior brightness and durability.",
+            "keywords": ""
+        },
+        {
+            "id": 20,
+            "url": "industrial-motors-and-pumps",
+            "title": "Reliable Industrial Motors and Pumps for Every Application",
+            "description": "Find a wide range of reliable industrial motors and pumps at HeadsUp B2B. Shop now for high-performance solutions designed to meet the demands of various industrial applications.",
+            "keywords": ""
+        },
+        {
+            "id": 21,
+            "url": "switches-sockets",
+            "title": "Quality Switches and Sockets for Safe Electrical Connections",
+            "description": "Explore our range of quality switches and sockets designed for safe and efficient electrical connections. Shop now at HeadsUp B2B for durable and reliable electrical components for your home or business.",
+            "keywords": ""
+        },
+        {
+            "id": 22,
+            "url": "accessories",
+            "title": "Top-Quality Electrical Accessories for All Needs",
+            "description": "Discover a wide range of top-quality electrical accessories at HeadsUp B2B. Find the perfect solutions for enhancing your electrical projects with our durable and reliable products. Shop now!",
+            "keywords": ""
+        },
+        {
+            "id": 23,
+            "url": "fans",
+            "title": "Efficient Fans for Optimal Airflow",
+            "description": "Browse our selection of efficient fans designed to provide optimal airflow and cooling. Find the perfect fan for your space at HeadsUp B2B and enjoy comfort and performance. Shop now!",
+            "keywords": ""
+        },
+        {
+            "id": 24,
+            "url": "circuit-breaker-and-boards",
+            "title": "Reliable Circuit Breakers and Boards for Electrical Safety",
+            "description": "Shop for high-quality circuit breakers and boards designed to ensure electrical safety and reliability. Find the best solutions for protecting your electrical systems at HeadsUp B2B.",
+            "keywords": ""
+        },
+        {
+            "id": 25,
+            "url": "cooling-and-heating-appliances",
+            "title": "Top Cooling and Heating Appliances for Optimal Comfort",
+            "description": "Explore our range of cooling and heating appliances designed to provide optimal comfort throughout the year. Shop now at HeadsUp B2B for high-quality solutions that meet your temperature control needs.",
+            "keywords": ""
+        },
+        {
+            "id": 26,
+            "url": "personal-protective-equipment-ppe",
+            "title": "Essential Personal Protective Equipment (PPE) for Safety",
+            "description": "Discover a wide range of essential personal protective equipment (PPE) designed to keep you safe on the job. Shop at HeadsUp B2B for high-quality safety gear and equipment for every industry.",
+            "keywords": ""
+        },
+        {
+            "id": 27,
+            "url": "signage-and-communication",
+            "title": "Effective Signage and Communication Solutions",
+            "description": "Explore our range of signage and communication products designed to enhance safety and clarity in any environment. Shop now at HeadsUp B2B for high-quality solutions that improve visibility and messaging.",
+            "keywords": ""
+        },
+        {
+            "id": 28,
+            "url": "facility-safety",
+            "title": "Comprehensive Facility Safety Solutions",
+            "description": "Find a wide range of facility safety products designed to protect and maintain safe environments. Shop at HeadsUp B2B for top-quality solutions that enhance safety and compliance in your facility.",
+            "keywords": ""
+        },
+        {
+            "id": 29,
+            "url": "hand-tools",
+            "title": "High-Quality Hand Tools for Every Task",
+            "description": "Browse our selection of durable and reliable hand tools designed for precision and efficiency. Find the perfect hand tools for your projects at HeadsUp B2B and tackle any job with confidence.",
+            "keywords": ""
+        },
+        {
+            "id": 30,
+            "url": "power-tools",
+            "title": "Premium Power Tools for Efficient Performance",
+            "description": "Discover our range of high-performance power tools designed for efficiency and precision. Shop now at HeadsUp B2B for durable and reliable tools that make any job easier and more effective.",
+            "keywords": ""
+        },
+        {
+            "id": 31,
+            "url": "accessories-machine-vice-chucks",
+            "title": "Essential Accessories for Machine Vices and Chucks",
+            "description": "Explore a wide range of essential accessories for machine vices and chucks at HeadsUp B2B. Shop now for high-quality components that enhance the performance and precision of your machining tasks.",
+            "keywords": ""
+        },
+        {
+            "id": 32,
+            "url": "spare-parts",
+            "title": "Reliable Spare Parts for Tools and Machinery",
+            "description": "Find a comprehensive selection of reliable spare parts for tools and machinery at HeadsUp B2B. Ensure the longevity and efficiency of your equipment with our high-quality replacement components.",
+            "keywords": ""
+        },
+        {
+            "id": 33,
+            "url": "bearings",
+            "title": "High-Quality Bearings for Smooth Operation",
+            "description": "Shop a wide range of high-quality bearings designed to ensure smooth and reliable operation of your machinery. Find the perfect bearings for your needs at HeadsUp B2B and enhance performance and durability.",
+            "keywords": ""
+        },
+        {
+            "id": 34,
+            "url": "lubricating-oils",
+            "title": "Premium Lubricating Oils for Optimal Machinery Performance",
+            "description": "Discover our selection of premium lubricating oils designed to enhance the performance and longevity of your machinery. Shop now at HeadsUp B2B for high-quality oils that ensure smooth operation and reduce wear.",
+            "keywords": ""
+        },
+        {
+            "id": 35,
+            "url": "semi-finished",
+            "title": "High-Quality Semi-Finished Non-Ferrous Products",
+            "description": "Explore our range of semi-finished non-ferrous products, ideal for various industrial applications. Shop at HeadsUp B2B for premium materials that meet your manufacturing and project needs.",
+            "keywords": ""
+        },
+        {
+            "id": 36,
+            "url": "long",
+            "title": "Durable Long Non-Ferrous Products for Industrial Use",
+            "description": "Find a range of durable long non-ferrous products suitable for various industrial applications. Shop at HeadsUp B2B for high-quality materials that ensure strength and reliability for your projects.",
+            "keywords": ""
+        },
+        {
+            "id": 37,
+            "url": "solar",
+            "title": "Advanced Solar Solutions for Sustainable Energy",
+            "description": "Explore our range of advanced solar products designed for efficient and sustainable energy solutions. Shop now at HeadsUp B2B for high-quality solar panels and accessories to power your projects with renewable energy.",
+            "keywords": ""
+        },
+        {
+            "id": 38,
+            "url": "mig-wire",
+            "title": "Premium MIG Wire for Welding Excellence",
+            "description": "Discover our selection of high-quality MIG wire designed for superior welding performance. Shop at HeadsUp B2B for durable and reliable MIG wire that ensures clean and strong welds for your projects.",
+            "keywords": ""
+        },
+        {
+            "id": 39,
+            "url": "oxygen-and-nitrogen-regulators",
+            "title": "Reliable Oxygen and Nitrogen Regulators for Welding",
+            "description": "Shop for top-quality oxygen and nitrogen regulators designed to ensure precise control and safety in welding applications. Find the best solutions for your welding needs at HeadsUp B2B.",
+            "keywords": ""
+        },
+        {
+            "id": 40,
+            "url": "welding-plasma-cutting-machine",
+            "title": "High-Performance Welding Plasma Cutting Machines",
+            "description": "Explore our range of high-performance welding plasma cutting machines designed for precision and efficiency. Shop at HeadsUp B2B for reliable equipment that meets your welding and cutting needs.",
+            "keywords": ""
+        },
+        {
+            "id": 41,
+            "url": "tig-wire",
+            "title": "Premium TIG Wire for Precision Welding",
+            "description": "Find high-quality TIG wire for precision welding applications at HeadsUp B2B. Shop our range of durable TIG wire to ensure clean, strong welds and optimal performance for your welding projects.",
+            "keywords": ""
+        },
+        {
+            "id": 42,
+            "url": "welding-electrodes",
+            "title": "High-Quality Welding Electrodes for Superior Welds",
+            "description": "Discover a wide range of high-quality welding electrodes designed for strong and reliable welds. Shop at HeadsUp B2B for top-performing electrodes that meet your welding needs and enhance your project's results.",
+            "keywords": ""
+        },
+        {
+            "id": 43,
+            "url": "pallets",
+            "title": "Durable Pallets for Efficient Material Handling",
+            "description": "Browse our selection of durable pallets designed to streamline material handling and storage. Find the perfect pallets for your needs at HeadsUp B2B and ensure efficient and organized operations.",
+            "keywords": ""
+        },
+        {
+            "id": 44,
+            "url": "overhead-cranes",
+            "title": "Reliable Overhead Cranes for Efficient Lifting",
+            "description": "Explore our range of reliable overhead cranes designed for efficient and safe lifting operations. Shop at HeadsUp B2B for top-quality cranes that enhance your material handling and industrial processes.",
+            "keywords": ""
+        },
+        {
+            "id": 45,
+            "url": "forklift",
+            "title": "High-Performance Forklifts for Efficient Material Handling",
+            "description": "Discover our selection of high-performance forklifts designed to optimize material handling and warehouse operations. Shop at HeadsUp B2B for reliable forklifts that enhance productivity and efficiency.",
+            "keywords": ""
+        },
+        {
+            "id": 46,
+            "url": "conveyors",
+            "title": "Advanced Conveyors for Streamlined Material Handling",
+            "description": "Explore our range of advanced conveyors designed to optimize material handling and improve workflow efficiency. Shop now at HeadsUp B2B for high-quality conveyor systems that enhance your operational productivity.",
+            "keywords": ""
+        },
+        {
+            "id": 47,
+            "url": "belts",
+            "title": "Durable Belts for Reliable Material Handling",
+            "description": "Browse our selection of durable belts designed for efficient material handling. Shop at HeadsUp B2B for high-quality belts that ensure smooth and reliable operation in your material handling systems.",
+            "keywords": ""
+        },
+        {
+            "id": 48,
+            "url": "colonoscopy",
+            "title": "Advanced Colonoscopy Equipment for Accurate Diagnostics",
+            "description": "Discover our range of advanced colonoscopy equipment designed for precise and reliable diagnostics. Shop at HeadsUp B2B for high-quality tools that enhance patient care and diagnostic accuracy.",
+            "keywords": ""
+        },
+        {
+            "id": 49,
+            "url": "emg-machine",
+            "title": "High-Quality EMG Machines for Accurate Electromyography",
+            "description": "Explore our selection of high-quality EMG machines designed for precise electromyography testing. Shop at HeadsUp B2B for reliable equipment that ensures accurate diagnostics and improved patient outcomes.",
+            "keywords": ""
+        },
+        {
+            "id": 50,
+            "url": "flexible-endoscope",
+            "title": "Advanced Flexible Endoscopes for Enhanced Diagnostic Precision",
+            "description": "Shop our range of advanced flexible endoscopes designed to provide superior diagnostic precision and patient care. Find high-quality flexible endoscopes at HeadsUp B2B to support your medical procedures and diagnostics.",
+            "keywords": ""
+        },
+        {
+            "id": 51,
+            "url": "automated-blood-cell-counter-3-part",
+            "title": "Reliable 3-Part Automated Blood Cell Counters",
+            "description": "Discover our range of reliable 3-part automated blood cell counters designed for accurate and efficient blood analysis. Shop at HeadsUp B2B for high-quality counters that enhance diagnostic precision and laboratory productivity.",
+            "keywords": ""
+        },
+        {
+            "id": 52,
+            "url": "coagulation-analyser",
+            "title": "Precision Coagulation Analyzers for Accurate Blood Testing",
+            "description": "Explore our selection of precision coagulation analyzers designed for accurate and efficient blood clotting tests. Shop at HeadsUp B2B for high-quality analyzers that ensure reliable results and improve diagnostic accuracy.",
+            "keywords": ""
+        },
+        {
+            "id": 53,
+            "url": "horizontal-autoclave",
+            "title": "Reliable Horizontal Autoclaves for Sterilization",
+            "description": "Shop our range of reliable horizontal autoclaves designed for effective sterilization and safety. Find high-quality autoclaves at HeadsUp B2B to ensure optimal performance in your medical and laboratory settings.",
+            "keywords": ""
+        },
+        {
+            "id": 54,
+            "url": "intra-operating-nerve-conduction-machine",
+            "title": "Advanced Intra-Operating Nerve Conduction Machines",
+            "description": "Discover our advanced intra-operating nerve conduction machines designed for precise nerve monitoring during surgery. Shop at HeadsUp B2B for high-quality equipment that enhances surgical outcomes and patient care.",
+            "keywords": ""
+        },
+        {
+            "id": 55,
+            "url": "digital-radiography-dr-system-1000-ma",
+            "title": "Advanced Digital Radiography DR System 1000mA",
+            "description": "Explore our advanced digital radiography DR system with 1000mA for high-resolution imaging and enhanced diagnostic capabilities. Shop at HeadsUp B2B for reliable and efficient radiography solutions.",
+            "keywords": ""
+        },
+        {
+            "id": 56,
+            "url": "holter-monitor-with-recorder",
+            "title": "Comprehensive Holter Monitor with Recorder",
+            "description": "Shop our advanced Holter monitor with recorder designed for accurate and continuous cardiac monitoring. Find high-quality Holter monitoring solutions at HeadsUp B2B to enhance diagnostic accuracy and patient care.",
+            "keywords": ""
+        },
+        {
+            "id": 57,
+            "url": "ent-examination-chair",
+            "title": "Ergonomic ENT Examination Chairs for Optimal Patient Comfort",
+            "description": "Discover our range of ergonomic ENT examination chairs designed for comfort and functionality during ENT procedures. Shop at HeadsUp B2B for high-quality examination chairs that enhance patient care and ease of use.",
+            "keywords": ""
+        },
+        {
+            "id": 58,
+            "url": "otoscope",
+            "title": "High-Quality Otoscopes for Accurate Ear Examinations",
+            "description": "Shop our selection of high-quality otoscopes designed for precise ear examinations and diagnostics. Find the perfect otoscope at HeadsUp B2B to ensure reliable and clear visual assessment of ear health.",
+            "keywords": ""
+        },
+        {
+            "id": 59,
+            "url": "weighing-scale-adult",
+            "title": "Accurate Adult Weighing Scales for Reliable Measurement",
+            "description": "Find precise and durable adult weighing scales designed for accurate and reliable measurement. Shop at HeadsUp B2B for high-quality scales that ensure consistent and trustworthy weight readings for healthcare and personal use.",
+            "keywords": ""
+        },
+        {
+            "id": 60,
+            "url": "stethoscope",
+            "title": "Premium Stethoscopes for Accurate Diagnostics",
+            "description": "Explore our range of premium stethoscopes designed for precise and reliable auscultation. Shop at HeadsUp B2B for high-quality stethoscopes that enhance diagnostic accuracy and patient care.",
+            "keywords": ""
+        },
+        {
+            "id": 61,
+            "url": "adjustable-walker",
+            "title": "Versatile Adjustable Walkers for Enhanced Mobility",
+            "description": "Discover our selection of versatile adjustable walkers designed to improve mobility and support. Shop at HeadsUp B2B for high-quality walkers that provide comfort and stability for users of all needs.",
+            "keywords": ""
+        },
+        {
+            "id": 62,
+            "url": "reciprocal-walker",
+            "title": "Innovative Reciprocal Walkers for Improved Mobility",
+            "description": "Explore our range of innovative reciprocal walkers designed to enhance mobility and support. Shop at HeadsUp B2B for high-quality walkers that offer stability and ease of use for a more comfortable walking experience.",
+            "keywords": ""
+        },
+        {
+            "id": 63,
+            "url": "treadmill",
+            "title": "High-Performance Treadmills for Effective Workouts",
+            "description": "Find a variety of high-performance treadmills designed for effective and enjoyable workouts. Shop at HeadsUp B2B for quality treadmills that enhance your fitness routine and help you achieve your exercise goals.",
+            "keywords": ""
+        },
+        {
+            "id": 64,
+            "url": "strength-equipment",
+            "title": "Premium Strength Equipment for Effective Training",
+            "description": "Discover our selection of premium strength equipment designed to boost your training regimen and build muscle effectively. Shop at HeadsUp B2B for high-quality strength training tools that enhance your fitness goals.",
+            "keywords": ""
+        },
+        {
+            "id": 65,
+            "url": "elliptical",
+            "title": "High-Quality Ellipticals for Efficient Cardio Workouts",
+            "description": "Explore our range of high-quality ellipticals designed for efficient and low-impact cardio workouts. Shop at HeadsUp B2B for ellipticals that provide smooth and effective exercise to enhance your fitness routine.",
+            "keywords": ""
+        },
+        {
+            "id": 66,
+            "url": "bicycle",
+            "title": "Top-Quality Exercise Bicycles for Effective Workouts",
+            "description": "Discover our selection of top-quality exercise bicycles designed for effective cardio workouts and fitness. Shop at HeadsUp B2B for durable and reliable bicycles that enhance your training and support your fitness goals.",
+            "keywords": ""
+        },
+        {
+            "id": 67,
+            "url": "bench",
+            "title": "Durable Fitness Benches for Strength Training",
+            "description": "Browse our range of durable fitness benches designed for effective strength training and exercise routines. Shop at HeadsUp B2B for high-quality benches that provide stability and support for a variety of workouts.",
+            "keywords": ""
+        },
+        {
+            "id": 68,
+            "url": "cubicle",
+            "title": "Stylish and Durable Cubicles for Modern Spaces",
+            "description": "Explore our selection of stylish and durable cubicles designed to enhance privacy and functionality in modern spaces. Shop at HeadsUp B2B for high-quality cubicles that fit your sanitary and bathware needs.",
+            "keywords": ""
+        },
+        {
+            "id": 69,
+            "url": "bathroom-fixtures",
+            "title": "Elegant Bathroom Fixtures for Modern Spaces",
+            "description": "Discover our range of elegant bathroom fixtures designed to enhance the style and functionality of your space. Shop at HeadsUp B2B for high-quality fixtures that provide both aesthetics and durability for your bathroom.",
+            "keywords": ""
+        },
+        {
+            "id": 70,
+            "url": "sanitaryware",
+            "title": "Premium Sanitaryware for Stylish and Functional Bathrooms",
+            "description": "Browse our selection of premium sanitaryware designed to enhance both style and functionality in your bathroom. Shop at HeadsUp B2B for high-quality sanitaryware that ensures durability and modern design.",
+            "keywords": ""
+        },
+        {
+            "id": 71,
+            "url": "faucets-showers",
+            "title": "Stylish Faucets and Showers for Modern Bathrooms",
+            "description": "Explore our collection of stylish faucets and showers designed to elevate the look and functionality of your bathroom. Shop at HeadsUp B2B for high-quality fixtures that combine elegance and performance.",
+            "keywords": ""
+        },
+        {
+            "id": 72,
+            "url": "printing-and-scanning-hardware",
+            "title": "Reliable Printing and Scanning Hardware for Your Office",
+            "description": "Discover our range of reliable printing and scanning hardware designed to meet your office needs. Shop at HeadsUp B2B for high-quality printers and scanners that enhance productivity and efficiency in your workspace.",
+            "keywords": ""
+        },
+        {
+            "id": 73,
+            "url": "large-displays",
+            "title": "High-Quality Large Displays for Stunning Visuals",
+            "description": "Explore our selection of high-quality large displays designed to deliver stunning visuals and enhance your presentations. Shop at HeadsUp B2B for top-performing displays that provide clarity and impact in any setting.",
+            "keywords": ""
+        },
+        {
+            "id": 74,
+            "url": "memory-hardware",
+            "title": "Reliable Memory Hardware for Enhanced Computer Performance",
+            "description": "Shop our selection of reliable memory hardware designed to boost your computer’s performance and efficiency. Find high-quality RAM and memory solutions at HeadsUp B2B for optimal system speed and reliability.",
+            "keywords": ""
+        },
+        {
+            "id": 75,
+            "url": "all-purpose-hardware",
+            "title": "Versatile All-Purpose Hardware for Every IT Need",
+            "description": "Discover our range of versatile all-purpose hardware designed to meet a variety of IT requirements. Shop at HeadsUp B2B for high-quality hardware solutions that offer reliability and performance across different applications.",
+            "keywords": ""
+        },
+        {
+            "id": 76,
+            "url": "tiles",
+            "title": "Stylish and Durable Tiles for Every Space",
+            "description": "Browse our selection of stylish and durable tiles designed to enhance any space. Shop at HeadsUp B2B for high-quality tiles that combine aesthetics and functionality for your flooring and wall needs.",
+            "keywords": ""
+        },
+        {
+            "id": 77,
+            "url": "fastener",
+            "title": "High-Quality Fasteners for Reliable Construction",
+            "description": "Explore our range of high-quality fasteners designed for durability and reliability in construction projects. Shop at HeadsUp B2B for dependable fasteners that ensure secure and lasting connections in your builds.",
+            "keywords": ""
+        },
+        {
+            "id": 78,
+            "url": "glass-products",
+            "title": "Premium Glass Products for Modern Construction",
+            "description": "Discover our range of premium glass products designed to enhance the aesthetics and functionality of modern construction projects. Shop at HeadsUp B2B for high-quality glass solutions that meet your design and building needs.",
+            "keywords": ""
+        },
+        {
+            "id": 79,
+            "url": "paint-products",
+            "title": "High-Quality Paint Products for Professional Finishes",
+            "description": "Browse our selection of high-quality paint products designed for professional-grade finishes. Shop at HeadsUp B2B for a variety of paint solutions that deliver vibrant colors and durable results for all your projects.",
+            "keywords": ""
+        },
+        {
+            "id": 80,
+            "url": "doors-and-accessories",
+            "title": "Stylish Doors and Accessories for Every Entryway",
+            "description": "Explore our range of stylish doors and accessories designed to enhance the look and functionality of your entryways. Shop at HeadsUp B2B for high-quality doors and accessories that provide security, durability, and aesthetic appeal.",
+            "keywords": ""
+        },
+        {
+            "id": 81,
+            "url": "plywood-block-board-ply",
+            "title": "Premium Plywood, Block Board, and Ply for Construction",
+            "description": "Discover our selection of premium plywood, block board, and ply designed for durability and versatility in construction. Shop at HeadsUp B2B for high-quality materials that enhance strength and reliability in your projects.",
+            "keywords": ""
+        },
+        {
+            "id": 82,
+            "url": "immediate-relief",
+            "title": "Immediate Relief Products for Quick Solutions",
+            "description": "Explore our range of immediate relief products designed to provide quick solutions and effective results. Shop at HeadsUp B2B for high-quality items that offer fast and reliable relief for various needs.",
+            "keywords": ""
+        },
+        {
+            "id": 83,
+            "url": "water-proofing",
+            "title": "Advanced Water Proofing Solutions for Durable Protection",
+            "description": "Discover our range of advanced water proofing products designed to provide durable protection and prevent water damage. Shop at HeadsUp B2B for high-quality solutions that ensure long-lasting waterproofing for your construction projects.",
+            "keywords": ""
+        },
+        {
+            "id": 84,
+            "url": "water-purification",
+            "title": "Effective Water Purification Solutions for Clean Water",
+            "description": "Explore our range of effective water purification products designed to ensure clean and safe drinking water. Shop at HeadsUp B2B for high-quality water purification solutions that improve water quality and health.",
+            "keywords": ""
+        },
+        {
+            "id": 85,
+            "url": "roofing-sheets",
+            "title": "Durable Roofing Sheets for Reliable Protection",
+            "description": "Browse our selection of durable roofing sheets designed for reliable protection and long-lasting performance. Shop at HeadsUp B2B for high-quality roofing sheets that enhance the safety and longevity of your building.",
+            "keywords": ""
+        },
+        {
+            "id": 86,
+            "url": "irrigation-products",
+            "title": "Efficient Irrigation Products for Optimal Watering",
+            "description": "Discover our range of efficient irrigation products designed to ensure optimal watering and enhance your agricultural or landscaping projects. Shop at HeadsUp B2B for high-quality solutions that improve water distribution and conserve resources.",
+            "keywords": ""
+        },
+        {
+            "id": 87,
+            "url": "insulation",
+            "title": "High-Quality Insulation Solutions for Optimal Efficiency",
+            "description": "Explore our range of high-quality insulation products designed to enhance energy efficiency and comfort. Shop at HeadsUp B2B for effective insulation solutions that provide superior thermal performance and reduce energy costs.",
+            "keywords": ""
+        },
+        {
+            "id": 88,
+            "url": "drywall",
+            "title": "Premium Drywall for Smooth and Durable Walls",
+            "description": "Discover our premium drywall products designed for smooth and durable wall construction. Shop at HeadsUp B2B for high-quality drywall solutions that enhance your building projects with reliable performance and finish.",
+            "keywords": ""
+        },
+        {
+            "id": 89,
+            "url": "specialty-materials",
+            "title": "High-Quality Specialty Materials for Unique Applications",
+            "description": "Explore our range of high-quality specialty materials designed for unique and specific applications. Shop at HeadsUp B2B for specialized materials that meet the needs of your unique construction and design projects.",
+            "keywords": ""
+        },
+        {
+            "id": 90,
+            "url": "cement",
+            "title": "Premium Cement for Strong and Reliable Construction",
+            "description": "Browse our selection of premium cement designed to ensure strong and reliable construction. Shop at HeadsUp B2B for high-quality cement that meets your building needs and enhances the durability of your projects.",
+            "keywords": ""
+        }
+
+
+    ]
+    }

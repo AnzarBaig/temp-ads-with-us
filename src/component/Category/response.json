@@ -1,0 +1,125 @@
+{
+    "doc":[
+        {
+            "_id" : 1,
+            "categoryName" : "Steel",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/steel",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : true
+        },{
+            "_id" : 2,
+            "categoryName" : "Road Equipment Safety",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/road-equipment-safety",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : true
+        },{
+            "_id" : 3,
+            "categoryName" : "Construction Material",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/construction-material",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : true
+        },{
+            "_id" : 4,
+            "categoryName" : "Plumbing and Fitting",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/plumbing-and-fitting",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : true
+        },{
+            "_id" : 5,
+            "categoryName" : "Electrical",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/electrical",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : true
+        },{
+            "_id" : 6,
+            "categoryName" : "Safety Products",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/safety-products",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : true
+        },{
+            "_id" : 7,
+            "categoryName" : "Tools and Accessories",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/tootls-and-accessories",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : false
+        },{
+            "_id" : 8,
+            "categoryName" : "Tool Room Machines",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/tool-room-machines",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : false
+        },{
+            "_id" : 1,
+            "categoryName" : "Non Ferrous Products",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/non-ferrous-products",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : false
+        },{
+            "_id" : 1,
+            "categoryName" : "Renewale Energy",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/renewale-energy",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : false
+        },{
+            "_id" : 1,
+            "categoryName" : "Material Handling",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/material-handling",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : false
+        },{
+            "_id" : 1,
+            "categoryName" : "Welding Machine",
+            "subTitle":"",
+            "thumbnailImg":"",
+            "url" : "/welding-machine",
+            "child":[],
+            "className":"",
+            "status": true,
+            "showOnHeader" : false
+        }
+    ]
+}

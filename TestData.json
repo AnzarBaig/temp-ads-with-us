@@ -1,0 +1,38 @@
+{
+  "RG 59": {
+    "Type": "RG 59",
+    "Colour": "Black, Brown, White",
+    "Cross-Section": "Bare Copper",
+    "Length": "1.22 -1.83, 30.48, 152.4",
+    "Durability Features": "Flexible, suitable for indoor and outdoor use",
+    "Connector Type": "F-Type connectors",
+    "Standards Compliance": "MIL-C-17, RoHS compliant",
+    "Temperature Rating": "-40 °C to +80 °C",
+    "Water Proofing": "Moisture resistant"
+  },
+  "RG 6": {
+    "Type": "RG 6",
+    "Colour": "Black",
+    "Cross-Section": "Bare Copper",
+    "Length": "100 m"
+    
+  },
+  "RG 7": {
+    "Type": "RG 6",
+    "Colour": "Black",
+    "Cross-Section": "Bare Copper",
+    "Length": "100 m",
+    "Standards Compliance": "MIL-C-17, RoHS Compliance",
+    "Temperature Rating": "-20°C to +80°C",
+    "Water Proofing": "Not waterproof"
+  },
+  "RG 9": {
+    "Type": "RG 6",
+    "Colour": "Black",
+    "Cross-Section": "Bare Copper",
+    "Length": "100 m",
+    "Standards Compliance": "MIL-C-17, RoHS Compliance",
+    "Temperature Rating": "-20°C to +80°C",
+    "Water Proofing": "Not waterproof"
+  }
+}
