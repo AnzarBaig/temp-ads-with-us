@@ -44,7 +44,7 @@
 //   });
 
 //   console.log("productOptions",productOptions);
-  
+
 
 //   // Merge and process data when both queries are successful
 //   useEffect(() => {
@@ -52,16 +52,16 @@
 //       try {
 //         // Extract product names
 //         const productNames = productsData.map(product => product.name);
-        
+
 //         // Extract subcategory names
 //         const subCategoryNames = subCategoriesData.map(subCategory => subCategory.name);
-        
+
 //         // Merge both arrays and remove duplicates
 //         const mergedOptions = [...new Set([...productNames, ...subCategoryNames])];
-        
+
 //         // Sort alphabetically for better UX
 //         const sortedOptions = mergedOptions.sort();
-        
+
 //         setProductOptions(sortedOptions);
 //       } catch (error) {
 //         console.error('Error processing product options:', error);
@@ -90,19 +90,19 @@
 //                 })
 //                 .then(crmResponse => {
 //                     console.log("CRM API Response:", crmResponse);
-                
+
 //                 })
 //                 .catch((error) => {
 //                     console.error('API Error:', error);
 //                     toast.error(`Something went wrong: ${error.message}`);
-                    
+
 //                 });
 
 //   };
 
 //   // Loading state for product options
 //   const isLoadingOptions = productsLoading || subCategoriesLoading;
-  
+
 //   // Error state
 //   const hasError = productsError || subCategoriesError;
 
@@ -230,27 +230,28 @@
 
 // export default HeroSection;
 
+
 import FloatingCard from "./FloatingCard";
 import GenericForm from "./GenericForm";
 import ModalPopUp from "./ModalPopUp";
 import { useState, useEffect } from "react";
-import { useQuery } from "@tanstack/react-query"; // useMutation is removed
+import { useQuery, useMutation } from "@tanstack/react-query";
 import { getAllProducts, getAllSubCategories, adsWithUs } from "@/Contants/APIEndpoint";
 import * as yup from "yup";
 import toast, { Toaster } from "react-hot-toast";
 
 // Fetch functions remain the same
-const fetchprod = async() => {
+const fetchprod = async () => {
   const data = await fetch(getAllProducts);
   return data.json()
 }
 
-const fecthSubCategory = async() => {
+const fecthSubCategory = async () => {
   const data = await fetch(getAllSubCategories);
   return data.json()
 }
 
-// Function to submit form data remains the same
+// Function to submit form data
 const submitFormData = async (formData) => {
   const response = await fetch(adsWithUs, {
     method: 'POST',
@@ -272,12 +273,8 @@ const submitFormData = async (formData) => {
 const HeroSection = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [productOptions, setProductOptions] = useState([]);
-  
-  // --- STATE MANAGEMENT REPLACEMENT FOR useMutation ---
-  // State to track if the form is currently being submitted
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  // Fetch products using useQuery (this part is unchanged)
+  // Fetch products using useQuery
   const {
     data: productsData,
     isLoading: productsLoading,
@@ -288,7 +285,7 @@ const HeroSection = () => {
     staleTime: 5 * 60 * 1000,
   });
 
-  // Fetch subcategories using useQuery (this part is unchanged)
+  // Fetch subcategories using useQuery
   const {
     data: subCategoriesData,
     isLoading: subCategoriesLoading,
@@ -299,7 +296,21 @@ const HeroSection = () => {
     staleTime: 5 * 60 * 1000,
   });
 
-  // useEffect for processing data is unchanged
+  // --- useMutation for form submission ---
+  const formMutation = useMutation({
+    mutationFn: submitFormData,
+    onSuccess: (data) => {
+      console.log("Form submitted successfully:", data);
+      toast.success("Form submitted successfully!");
+      setIsModalOpen(false); // Close modal on success
+    },
+    onError: (error) => {
+      console.error('Form submission error:', error);
+      toast.error(`Something went wrong: ${error.message}`);
+    },
+  });
+
+  // useEffect for processing data
   useEffect(() => {
     if (productsData && subCategoriesData) {
       try {
@@ -315,39 +326,19 @@ const HeroSection = () => {
     }
   }, [productsData, subCategoriesData]);
 
-  // --- UPDATED FORM SUBMISSION HANDLER ---
+  // --- Updated form submission handler using useMutation ---
   const handleFormSubmit = async (formData) => {
     console.log("Form Payload:", formData);
     console.log("baseurl ", adsWithUs);
 
-    // 1. Set loading state to true to disable buttons and show "Submitting..."
-    setIsSubmitting(true);
-
-    try {
-      // 2. Await the API call
-      const result = await submitFormData(formData);
-
-      // 3. Handle success
-      console.log("Form submitted successfully:", result);
-      // toast.success("Form submitted successfully!");
-      setIsModalOpen(false); // Close modal on success
-
-    } catch (error) {
-      // 4. Handle error
-      console.error('Form submission error:', error);
-      toast.error(`Something went wrong: ${error.message}`);
-
-    } finally {
-      // 5. IMPORTANT: Set loading state back to false in a `finally` block
-      // This ensures the form becomes usable again, whether the request succeeded or failed.
-      setIsSubmitting(false);
-    }
+    // Trigger the mutation
+    formMutation.mutate(formData);
   };
 
   const isLoadingOptions = productsLoading || subCategoriesLoading;
   const hasError = productsError || subCategoriesError;
 
-  // formSchema is unchanged
+  // formSchema
   const formSchema = yup.object().shape({
     name: yup.string().required("Name is required"),
     contactNo: yup
@@ -364,7 +355,7 @@ const HeroSection = () => {
     additionalComments: yup.string(),
   });
 
-  // formFields is unchanged
+  // formFields
   const formFields = [
     { label: "Name", type: "text", placeholder: "Enter your full name", Key: "name" },
     {
@@ -384,13 +375,13 @@ const HeroSection = () => {
       label: "Product",
       type: "select",
       options: productOptions,
-      placeholder: isLoadingOptions 
-        ? "Loading products..." 
-        : hasError 
-        ? "Error loading products - please try again" 
-        : productOptions.length === 0
-        ? "No products available"
-        : "Select a product or service",
+      placeholder: isLoadingOptions
+        ? "Loading products..."
+        : hasError
+          ? "Error loading products - please try again"
+          : productOptions.length === 0
+            ? "No products available"
+            : "Select a product or service",
       disabled: isLoadingOptions || hasError,
       isLoading: isLoadingOptions,
       Key: "product"
@@ -403,21 +394,20 @@ const HeroSection = () => {
     },
   ];
 
-  // --- UPDATED formButtons to use the new `isSubmitting` state ---
+  // --- Updated formButtons using useMutation states ---
   const formButtons = [
     {
-      label: isSubmitting ? "Submitting..." : "Submit",
+      label: formMutation.isLoading ? "Submitting..." : "Submit",
       type: "submit",
-      disabled: isSubmitting,
-      className: `bg-headupb2b hover:bg-orange-600 text-white ${
-        isSubmitting ? "opacity-50 cursor-not-allowed" : ""
-      }`,
+      disabled: formMutation.isLoading,
+      className: `bg-headupb2b hover:bg-orange-600 text-white ${formMutation.isLoading ? "opacity-50 cursor-not-allowed" : ""
+        }`,
     },
     {
       label: "Cancel",
       type: "button",
       onClick: () => setIsModalOpen(false),
-      disabled: isSubmitting, // Also disable cancel while submitting
+      disabled: formMutation.isLoading, // Also disable cancel while submitting
       className: "bg-gray-300 hover:bg-gray-400 text-gray-800",
     },
   ];
@@ -438,7 +428,7 @@ const HeroSection = () => {
         </p>
 
         <p className="text-gray-700 text-base mb-6 leading-relaxed">
-          With Headsup B2B’s targeted advertising, connecting you to a focused,<br/> pan-India audience of purchase-ready industrial and construction <br/> professionals, driving real results for your campaign.
+          With Headsup B2B's targeted advertising, connecting you to a focused,<br /> pan-India audience of purchase-ready industrial and construction <br /> professionals, driving real results for your campaign.
 
         </p>
 

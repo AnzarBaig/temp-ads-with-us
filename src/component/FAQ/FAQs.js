@@ -14,11 +14,23 @@ import { GradientText } from "@/Contants/constant";
 
 export default function FAQs({ FAQData = [] }) {
   const [selected, setSelected] = useState(null);
-  
+
   const splitFAQs = (data) => {
     const midIndex = Math.ceil(data.length / 2);
     return [data.slice(0, midIndex), data.slice(midIndex)];
   };
+
+  const cleanHTMLContent = (htmlString) => {
+    if (!htmlString) return '';
+
+    // Remove problematic whitespace classes and replace &nbsp; with regular spaces
+    return htmlString
+      .replace(/class="whitespace-pre-wrap"/g, '')
+      .replace(/&nbsp;/g, ' ')
+      .replace(/\s+/g, ' ') // Replace multiple spaces with single space
+      .trim();
+  };
+
 
   const [faqColumn1, faqColumn2] = splitFAQs(FAQData);
 
@@ -38,19 +50,26 @@ export default function FAQs({ FAQData = [] }) {
           {[faqColumn1, faqColumn2].map((faqs, columnIndex) => (
             <div key={columnIndex}>
               {faqs.map((item, index) => {
-                const itemValue = `item-${columnIndex}-${index}`; 
+                const itemValue = `item-${columnIndex}-${index}`;
                 return (
                   <AccordionItem key={itemValue} value={itemValue} className="border-b-0 my-4 group">
                     <AccordionTrigger
-                      className={`px-4 shadow-lg text-md bg-white text-left hover:no-underline ${
-                        selected === itemValue ? "rounded-t-xl" : "rounded-xl"
-                      }`}
+                      className={`px-4 shadow-lg text-md bg-white text-left hover:no-underline ${selected === itemValue ? "rounded-t-xl" : "rounded-xl"
+                        }`}
                     >
                       <h2 className="leading-5">{item.question}</h2>
                     </AccordionTrigger>
-                    <AccordionContent className="bg-AccordColor p-4 rounded-b-xl">
-                      {console.log("item.answer", item.answer)}
-                      <div dangerouslySetInnerHTML={{ __html: item.answer }} />
+                    <AccordionContent className="bg-AccordColor p-4 rounded-b-xl overflow-hidden">
+                      {console.log("----item.answer-----", item.answer)}
+                      <div
+                        dangerouslySetInnerHTML={{ __html: cleanHTMLContent(item.answer) }}
+                        className="break-words overflow-wrap-anywhere"
+                        style={{
+                          whiteSpace: 'normal',
+                          wordWrap: 'break-word',
+                          overflowWrap: 'break-word'
+                        }}
+                      />
                     </AccordionContent>
                   </AccordionItem>
                 );
